@@ -7,10 +7,10 @@ description: Create Docker images and push into a ECR repository.
 inputs:
   access_key_id:
     description: The AWS access key id
-    required: true
+    required: false
   secret_access_key:
     description: The AWS secret access key
-    required: true
+    required: false
   account_id:
     description: AWS Account ID
     required: true
